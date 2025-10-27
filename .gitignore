@@ -1,2 +1,4 @@
+*.pyc
 /books
 
+__pycache__/ 

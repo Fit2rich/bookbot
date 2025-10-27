@@ -1,13 +1,13 @@
+from stats import count_words
+
+
+
 def get_boot_text(filepath):
     with open(filepath,'r' ) as f:
         text = f.read()
     return text
 
 
-def count_words(text):
-    words = text.split()
-    num_words  = len(words)
-    return num_words
 
 
 
